@@ -1,0 +1,82 @@
+init/do_mounts.o: init/do_mounts.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/devfs_fs_kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/unistd.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ctype.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/blk.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/fd.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/tty.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/nfs_fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/nfs_fs_sb.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/nfs_mount.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/minix_fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ext2_fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/romfs_fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/squashfs_fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/cramfs_fs.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/blk/dev/initrd.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/arch/s390.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/root/nfs.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/blk/dev/ram.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/blk/dev/fd.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/ppc/iseries.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/devfs/fs.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/all/ppc.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/../lib/inflate.c
+init/main.o: init/main.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/proc_fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/devfs_fs_kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/unistd.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/string.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ctype.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/delay.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/utsname.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ioport.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/smp_lock.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/blk.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/hdreg.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/iobuf.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/bootmem.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/file.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/tty.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/bugs.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/arch/s390.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/acpi.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/acpi.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/pci.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/pci.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/dio.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/dio.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/zorro.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/zorro.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/mtrr.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/mtrr.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/nubus.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/nubus.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/isapnp.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/isapnp.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/irda.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/x86/local/apic.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/smp.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/acpi/bus.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/tc.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/sysvipc.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/smp.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/modules.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/blk/dev/initrd.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/proc/fs.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/sysctl.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/acpi/interpreter.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/sbus.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/ppc.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/mca.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/arch/acorn.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/pcmcia.h)
+init/version.o: init/version.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/uts.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/utsname.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/version.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/compile.h

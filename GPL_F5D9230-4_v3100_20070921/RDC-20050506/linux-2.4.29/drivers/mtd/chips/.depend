@@ -1,0 +1,131 @@
+amd_flash.o: amd_flash.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/delay.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/interrupt.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/mtd.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/flashchip.h
+cfi_probe.o: cfi_probe.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/byteorder.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/interrupt.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h \
+   flashdrv.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/semaphore.h
+chipreg.o: chipreg.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kmod.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/spinlock.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/compatmac.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/modules.h)
+cmdset_amd.o: cmdset_amd.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/param.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/timer.h \
+   flashdrv.h \
+   cmdset_amd.h
+cmdset_intel.o: cmdset_intel.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/param.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/timer.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/delay.h \
+   flashdrv.h \
+   cmdset_intel.h
+flashdrv.o: flashdrv.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/delay.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/param.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/timer.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h \
+   flashdrv.h \
+   cmdset_amd.h \
+   cmdset_intel.h
+flashdrv.h: \
+   flashdrv_param.h
+	@touch flashdrv.h
+gen_probe.o: gen_probe.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/mtd.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/cfi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/gen_probe.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/modules.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/mtd/cfi/intelext.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/mtd/cfi/amdstd.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/mtd/cfi/staa.h)
+jedec.o: jedec.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/jedec.h
+jedec_probe.o: jedec_probe.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/byteorder.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/interrupt.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/cfi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/gen_probe.h
+map_absent.o: map_absent.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h
+map_ram.o: map_ram.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/byteorder.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h
+map_rom.o: map_rom.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/version.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/byteorder.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h
+sharp.o: sharp.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/version.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/types.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/interrupt.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/map.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mtd/cfi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/delay.h
+.PRECIOUS:	flashdrv.h \
+

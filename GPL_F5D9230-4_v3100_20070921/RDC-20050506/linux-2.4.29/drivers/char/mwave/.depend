@@ -1,0 +1,72 @@
+3780i.o: 3780i.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/version.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/unistd.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/delay.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ioport.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/uaccess.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/system.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/irq.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/bitops.h \
+   smapi.h \
+   mwavedd.h \
+   3780i.h
+3780i.h: \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h
+	@touch 3780i.h
+mwavedd.o: mwavedd.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/version.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/major.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/miscdevice.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/proc_fs.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/serial.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/spinlock.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/spinlock.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/delay.h \
+   smapi.h \
+   mwavedd.h \
+   3780i.h \
+   tp3780i.h
+mwavedd.h: \
+   3780i.h \
+   tp3780i.h \
+   mwavepub.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ioctl.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/uaccess.h
+	@touch mwavedd.h
+mwavepub.h: \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/miscdevice.h
+	@touch mwavepub.h
+smapi.o: smapi.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/version.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/mc146818rtc.h \
+   smapi.h \
+   mwavedd.h
+tp3780i.o: tp3780i.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/version.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ptrace.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ioport.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   smapi.h \
+   mwavedd.h \
+   tp3780i.h \
+   3780i.h \
+   mwavepub.h
+tp3780i.h: \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   mwavepub.h
+	@touch tp3780i.h
+.PRECIOUS:	3780i.h \
+	mwavedd.h \
+	mwavepub.h \
+	tp3780i.h \
+

@@ -1,0 +1,71 @@
+ipmi_devintf.o: ipmi_devintf.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/system.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/poll.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/spinlock.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/devfs_fs_kernel.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ipmi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/semaphore.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h
+ipmi_kcs_intf.o: ipmi_kcs_intf.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/system.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/timer.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/spinlock.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/delay.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/list.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ioport.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/high/res/timers.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/interrupt.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ipmi_smi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   ipmi_kcs_sm.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/ipmi/kcs.h) \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/acpi/interpreter.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/acpi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/acpi/acpi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/acpi/actypes.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/acpi/actbl.h
+ipmi_kcs_sm.o: ipmi_kcs_sm.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/io.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/string.h \
+   ipmi_kcs_sm.h
+ipmi_msghandler.o: ipmi_msghandler.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/system.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/sched.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/poll.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/spinlock.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/rwsem.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/slab.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ipmi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ipmi_smi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/notifier.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/ipmi/panic/event.h)
+ipmi_watchdog.o: ipmi_watchdog.c \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/module.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ipmi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/ipmi_smi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/watchdog.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/miscdevice.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/init.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/rwsem.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/errno.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/uaccess.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/notifier.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/nmi.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/reboot.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/wait.h \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/linux/poll.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/x86/local/apic.h) \
+   /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/asm/apic.h \
+   $(wildcard /home/kyo/GPL_BELKIN_F5D9230-4_v3000/RDC-20050506/linux-2.4.29/include/config/watchdog/nowayout.h)

@@ -1,0 +1,8 @@
+dio.o: dio.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/dio.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/dio/constants.h)

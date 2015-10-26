@@ -1,0 +1,67 @@
+evdev.o: evdev.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/poll.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/input.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h
+input.o: input.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/input.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/random.h
+joydev.o: joydev.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/segment.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/joystick.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/input.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/major.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/miscdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/poll.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h
+keybdev.o: keybdev.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kbd_ll.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/input.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/tty.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kbd_kern.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ia64.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/sparc64.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/superh.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ppc.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mac/emumousebtn.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mac/adbkeycodes.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/adb/keyboard.h)
+mousedev.o: mousedev.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/poll.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/input.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/random.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/input/mousedev/screen/x.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/input/mousedev/screen/y.h)
+uinput.o: uinput.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/poll.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/input.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/miscdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/uinput.h

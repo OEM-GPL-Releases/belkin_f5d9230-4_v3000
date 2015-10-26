@@ -1,0 +1,81 @@
+ibm_emac.h: \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ibm/emac4.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/440gp.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/440gx.h)
+	@touch ibm_emac.h
+ibm_ocp_debug.o: ibm_ocp_debug.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   ibm_ocp_mal.h \
+   ibm_ocp_zmii.h \
+   ibm_ocp_enet.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/40x.h)
+ibm_ocp_enet.o: ibm_ocp_enet.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ptrace.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ethtool.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mii.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/processor.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/bitops.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/dma.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/irq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/uaccess.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/etherdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/skbuff.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/crc32.h \
+   ibm_ocp_enet.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ibm/ocp/enet/gap.h)
+ibm_ocp_enet.h: \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/mmu.h \
+   ibm_emac.h \
+   ibm_ocp_phy.h \
+   ibm_ocp_zmii.h \
+   ibm_ocp_mal.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ibm/ocp/enet/tx/buff.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ibm/ocp/enet/rx/buff.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ibm/ocp/enet/skb/res.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ibm/ocp/enet/error/msg.h)
+	@touch ibm_ocp_enet.h
+ibm_ocp_mal.o: ibm_ocp_mal.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/irq.h \
+   ibm_ocp_mal.h
+ibm_ocp_mal.h: \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h
+	@touch ibm_ocp_mal.h
+ibm_ocp_phy.o: ibm_ocp_phy.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/etherdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mii.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ethtool.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   ibm_ocp_phy.h
+.PRECIOUS:	ibm_emac.h \
+	ibm_ocp_enet.h \
+	ibm_ocp_mal.h \
+

@@ -1,0 +1,109 @@
+arcnet.o: arcnet.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/if_arp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/net/arp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arcnet.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arcnet/1201.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arcnet/1051.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arcnet/raw.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arcnet/com90xx.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/inet.h)
+arc-rawmode.o: arc-rawmode.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/if_arp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/net/arp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/skbuff.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h
+arc-rimi.o: arc-rimi.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/bootmem.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h
+com20020.o: com20020.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/com20020.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h
+com20020-isa.o: com20020-isa.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/bootmem.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/com20020.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h
+com20020-pci.o: com20020-pci.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/com20020.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h
+com90io.o: com90io.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/bootmem.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h
+com90xx.o: com90xx.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/bootmem.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h
+rfc1051.o: rfc1051.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/if_arp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/net/arp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/skbuff.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h
+rfc1201.o: rfc1201.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/if_arp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/skbuff.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/arcdevice.h

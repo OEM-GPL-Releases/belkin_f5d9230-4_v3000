@@ -1,0 +1,50 @@
+sticon.o: sticon.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/tty.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/console.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/console_struct.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/vt_kern.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kd.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/selection.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   sticore.h
+sticore.o: sticore.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/video/font.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/pgalloc.h \
+   sticore.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/fb.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/pci.h)
+sticore.h: \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/pgalloc.h
+	@touch sticore.h
+stifb.o: stifb.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/tty.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/fb.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/selection.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/video/fbcon.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/video/fbcon-cfb8.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/video/fbcon-cfb32.h \
+   sticore.h
+.PRECIOUS:	sticore.h \
+

@@ -1,0 +1,263 @@
+ac.o: ac.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+acpi_ksyms.o: acpi_ksyms.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/interpreter.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/bus.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/pci.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/ec.h)
+asus_acpi.o: asus_acpi.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/uaccess.h
+battery.o: battery.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+blacklist.o: blacklist.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h
+bus.o: bus.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/mpspec.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acinterp.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ldm.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/debug.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/ec.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/pci.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/pm.h)
+button.o: button.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+ec.o: ec.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/actypes.h
+fan.o: fan.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+motherboard.o: motherboard.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+numa.o: numa.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h
+osl.o: osl.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kmod.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/nmi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/efi.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/efi.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/pci.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ia64.h)
+pci_bind.o: pci_bind.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/spinlock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+pci_irq.o: pci_irq.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/spinlock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86/io/apic.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/mpspec.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/iosapic.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86.h)
+pci_link.o: pci_link.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/spinlock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+pci_root.o: pci_root.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/spinlock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86.h)
+power.o: power.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+processor.o: processor.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/smp.h)
+system.o: system.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/spinlock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/poll.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sysrq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pm.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/uaccess.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/acpi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/sleep.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mc146818rtc.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/irq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/hw_irq.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/pm.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/magic/sysrq.h)
+tables.o: tables.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/irq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/bootmem.h
+thermal.o: thermal.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kmod.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+toshiba_acpi.o: toshiba_acpi.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/uaccess.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h
+utils.o: utils.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_bus.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/acpi/acpi_drivers.h

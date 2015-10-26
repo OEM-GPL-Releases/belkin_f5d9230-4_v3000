@@ -1,0 +1,82 @@
+init/do_mounts.o: init/do_mounts.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/devfs_fs_kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/unistd.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ctype.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/blk.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/fd.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/tty.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/nfs_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/nfs_fs_sb.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/nfs_mount.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/minix_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ext2_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/romfs_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/squashfs_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/cramfs_fs.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/blk/dev/initrd.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arch/s390.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/root/nfs.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/blk/dev/ram.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/blk/dev/fd.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ppc/iseries.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/devfs/fs.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/all/ppc.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/../lib/inflate.c
+init/main.o: init/main.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/devfs_fs_kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/unistd.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ctype.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/utsname.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/blk.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/hdreg.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/iobuf.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/bootmem.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/file.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/tty.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/bugs.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arch/s390.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/acpi.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/pci.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/dio.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/dio.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/zorro.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/zorro.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mtrr.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/mtrr.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/nubus.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/nubus.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/isapnp.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/isapnp.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/irda.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86/local/apic.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/smp.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/bus.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/tc.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/sysvipc.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/smp.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/modules.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/blk/dev/initrd.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/proc/fs.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/sysctl.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/acpi/interpreter.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/sbus.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ppc.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mca.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/arch/acorn.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/pcmcia.h)
+init/version.o: init/version.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/uts.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/utsname.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compile.h

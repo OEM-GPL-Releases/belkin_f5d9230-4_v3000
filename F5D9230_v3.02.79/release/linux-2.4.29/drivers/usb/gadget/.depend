@@ -1,0 +1,224 @@
+config.o: config.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h
+epautoconf.o: epautoconf.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ctype.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_gadget.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   gadget_chips.h
+ether.o: ether.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/uts.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/moduleparam.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ctype.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/irq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/uaccess.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/unaligned.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_gadget.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/random.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/etherdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ethtool.h \
+   gadget_chips.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/eth/rndis.h) \
+   rndis.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/tqueue.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/net2280.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/dummy/hcd.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/goku.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/lh7a40x.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/mq11xx.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/omap.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/n9604.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/pxa27x.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/pxa2xx.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/sh.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/sa1100.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/dualspeed.h)
+file_storage.o: file_storage.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/uaccess.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/bitops.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/blkdev.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/compiler.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/completion.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/dcache.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/fcntl.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/file.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/limits.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pagemap.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/rwsem.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/signal.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/spinlock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/uts.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/wait.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_gadget.h \
+   gadget_chips.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/file/storage/test.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/value.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/dualspeed.h)
+gadget_chips.h: \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/net2280.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/dummy/hcd.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/pxa2xx.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/goku.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/superh.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/sa1100.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/lh7a40x.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/mq11xx.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/omap.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/n9604.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/pxa27x.h)
+	@touch gadget_chips.h
+goku_udc.o: goku_udc.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_gadget.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/irq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/unaligned.h \
+   goku_udc.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mips.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/noncoherent/io.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ppc.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/not/coherent/cache.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/proc/fs.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/embedded.h)
+net2280.o: net2280.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/pci.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_gadget.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/irq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/unaligned.h \
+   net2280.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/x86.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/ppc.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/not/coherent/cache.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mips.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/noncoherent/io.h)
+rndis.o: rndis.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/moduleparam.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/proc_fs.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/netdevice.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   rndis.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/debug/files.h) \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/uaccess.h
+rndis.h: \
+   ndis.h
+	@touch rndis.h
+usbstring.o: usbstring.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/string.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_gadget.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/unaligned.h
+zero.o: zero.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/ioport.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/smp_lock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/init.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/list.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/uts.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/irq.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/system.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/unaligned.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_ch9.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/usb_gadget.h \
+   gadget_chips.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/zero/hnptest.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/source/sink.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/loopback.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/usb/gadget/dualspeed.h)
+.PRECIOUS:	gadget_chips.h \
+	rndis.h \
+

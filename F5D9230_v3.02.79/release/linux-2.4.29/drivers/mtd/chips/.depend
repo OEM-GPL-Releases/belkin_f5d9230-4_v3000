@@ -1,0 +1,131 @@
+amd_flash.o: amd_flash.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/mtd.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/flashchip.h
+cfi_probe.o: cfi_probe.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h \
+   flashdrv.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/semaphore.h
+chipreg.o: chipreg.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kmod.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/spinlock.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/compatmac.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/modules.h)
+cmdset_amd.o: cmdset_amd.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/param.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   flashdrv.h \
+   cmdset_amd.h
+cmdset_intel.o: cmdset_intel.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/param.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/delay.h \
+   flashdrv.h \
+   cmdset_intel.h
+flashdrv.o: flashdrv.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/delay.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/param.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/timer.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h \
+   flashdrv.h \
+   cmdset_amd.h \
+   cmdset_intel.h
+flashdrv.h: \
+   flashdrv_param.h
+	@touch flashdrv.h
+gen_probe.o: gen_probe.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/mtd.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/cfi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/gen_probe.h \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/modules.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mtd/cfi/intelext.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mtd/cfi/amdstd.h) \
+   $(wildcard /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/config/mtd/cfi/staa.h)
+jedec.o: jedec.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/jedec.h
+jedec_probe.o: jedec_probe.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/cfi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/gen_probe.h
+map_absent.o: map_absent.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h
+map_ram.o: map_ram.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h
+map_rom.o: map_rom.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/io.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/asm/byteorder.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/slab.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h
+sharp.o: sharp.c \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/kernel.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/module.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/version.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/types.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/sched.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/errno.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/interrupt.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/map.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/mtd/cfi.h \
+   /home/marmot/F5D9230_v3.02.79/release/linux-2.4.29/include/linux/delay.h
+.PRECIOUS:	flashdrv.h \
+
